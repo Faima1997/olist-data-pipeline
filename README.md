@@ -2,7 +2,7 @@
 
 A batch-oriented ELT (Extract, Load, Transform) data pipeline built with DuckDB and Python for analyzing Brazilian e-commerce transactions from the Olist Public Dataset.
 
-## 📊 Project Overview
+## � Project Overview
 
 This project transforms the highly normalized Olist Public Dataset (9 CSV files) into an analytics-optimized data model, delivering critical KPIs related to sales velocity, customer distribution, and operational metrics to downstream Business Intelligence tools.
 
@@ -14,7 +14,7 @@ This project transforms the highly normalized Olist Public Dataset (9 CSV files)
 - **Analytical Outputs**: Time-series and categorical data exports for BI visualization
 - **Local-First Architecture**: Self-contained stack requiring no external cloud dependencies
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Technology Stack
 
@@ -38,7 +38,7 @@ The pipeline enforces a strict DAG structure:
 3. **Export**: Generate aggregated data for visualization
 4. **Serve**: Consume in Metabase for business insights
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -78,7 +78,7 @@ python3 scripts/show_schema.py
 python3 scripts/check_data.py
 ```
 
-## 📁 Project Structure
+## � Project Structure
 
 ```
 olist-data-pipeline/
@@ -104,7 +104,7 @@ olist-data-pipeline/
 └── README.md
 ```
 
-## 📈 Key Findings
+## Key Findings
 
 ### Temporal Analysis
 - **Highest Order Volume**: 3,008 orders during the week starting November 20, 2017
@@ -115,7 +115,7 @@ olist-data-pipeline/
 - **Business Impact**: Critical for logistical planning and regional marketing strategies
 - **Order Success Rate**: 97.02% of orders successfully delivered
 
-## 🎯 Analytical Outputs
+##  Analytical Outputs
 
 The pipeline generates three key data products:
 
@@ -146,7 +146,7 @@ All data ingestion uses `CREATE OR REPLACE TABLE` to ensure:
 - Pipeline can be safely executed multiple times
 - Simplified error recovery and debugging
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 ### Current Architecture Constraints
 
@@ -160,7 +160,7 @@ All data ingestion uses `CREATE OR REPLACE TABLE` to ensure:
 - Local development and testing
 - Single-node analytical workloads
 
-## 🚧 Future Enhancements
+## Future Enhancements
 
 ### Planned Improvements
 
@@ -183,7 +183,7 @@ All data ingestion uses `CREATE OR REPLACE TABLE` to ensure:
    - Migrate large files to Git Large File Storage
    - Improve repository hygiene and clone performance
 
-## 📊 Dashboard Preview
+##  Dashboard Preview
 
 The exported data powers a comprehensive Metabase dashboard featuring:
 - Total order metrics (99,441 orders)
@@ -193,19 +193,19 @@ The exported data powers a comprehensive Metabase dashboard featuring:
 - Risk analysis (canceled orders by state)
 - Top cities performance metrics
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
+##  License
 
 This project was developed as part of the Data Pipeline Engineering course.
 
-## 👤 Author
+## Author
 
 **Fahima PK** - Student ID: 60319693
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Olist for providing the public e-commerce dataset
 - DuckDB team for the excellent analytical database
