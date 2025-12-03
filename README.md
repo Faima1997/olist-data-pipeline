@@ -2,7 +2,7 @@
 
 A batch-oriented ELT (Extract, Load, Transform) data pipeline built with DuckDB and Python for analyzing Brazilian e-commerce transactions from the Olist Public Dataset.
 
-## � Project Overview
+## Project Overview
 
 This project transforms the highly normalized Olist Public Dataset (9 CSV files) into an analytics-optimized data model, delivering critical KPIs related to sales velocity, customer distribution, and operational metrics to downstream Business Intelligence tools.
 
